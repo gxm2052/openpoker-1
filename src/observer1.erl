@@ -18,7 +18,7 @@
 %%%% http://creativecommons.org/licenses/by-nc-sa/3.0/us/
 %%%%
 
--module(observer).
+-module(observer1).
 
 %%% 
 %%% Observer bot. Reports game activity.

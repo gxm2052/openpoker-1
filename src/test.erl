@@ -1070,7 +1070,7 @@ connect_observer(Host, Port, Game, Trace) ->
     connect_observer(Host, Port, Game, 1, Trace).
 
 connect_observer(Host, Port, Game, N, Trace) ->
-    {ok, Obs} = bot:start(Host, Port, observer, [self(), Trace, N]),
+    {ok, Obs} = bot:start(Host, Port, observer1, [self(), Trace, N]),
     GID = gen_server:call(Game, 'ID'),
     bot:watch(Obs, GID),
     F = fun() -> stop_proc(Obs, fun bot:stop/1) end,
