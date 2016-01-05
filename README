@@ -2,3 +2,6 @@ OpenPoker is released under a Creative Commons Non-Commercial License.
 
 Please visit http://wagerlabs.com for more information.
 
+Add lib pmod_transform to support original Parameterized Modules.
+Add erl makefile.
+
